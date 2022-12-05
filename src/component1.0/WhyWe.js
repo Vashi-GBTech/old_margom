@@ -13,8 +13,8 @@ export default function WhyWe(props) {
                  <div className="col-md-6 text-start" style={{background:'#d74237a3', padding:'2rem 3rem'}}>
                      <h1 className='WE_EXIST border-bottom pb-2 mb-3 border-dark'>WHY WE EXIST</h1>
                      <h2>Marg'om Accelerator Studio helps scale companies</h2>
-                     <p className='latoFont'>by connections, enablers of Clarity, Capacity building and Capital raising with passion of leveraging the Spirit of Entrepreneurial Indians. We partner with entrepreneur mindset.</p>
-                     <Button variant="dark" className="text-white" >Know the Facts</Button>
+                     <p className='latoFont'>By connections, enablers of Clarity, Capacity building, and Capital raising with the passion of leveraging the Spirit of Entrepreneurial Indians. We partner with an entrepreneurial mindset.</p>
+                    <Button variant="dark" className="text-white" >Know the Facts</Button>
                  </div>
              </div>
          </div>
