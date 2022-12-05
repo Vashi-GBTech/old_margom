@@ -10,7 +10,7 @@ return (
                     <h2>MARG'Om</h2>
                     <h2 className='w-75 mx-auto'>Simplicity of Ancient Wisdom
                         efficiency of Modern Management</h2>
-                    <p>MDD Digital Co.</p>
+                    
                 </div>
             </div>
         </div>
