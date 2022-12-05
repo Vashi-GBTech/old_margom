@@ -5,7 +5,7 @@ export default function PartnershipModels(props) {
     const PartenersArray = [{PT:'Co-Promoter Model'},{PT:'Build Model', more:'Learn More'},{PT:'Hired Model', more:'Learn More'},{PT:'Co-Founder Model', more:'Learn More'}]
         const Parteners= PartenersArray.map((value, index)=>{
             let learnBtn = <Button variant="dark" size='sm'>{value.more}</Button> ;
-            if (index == 0){
+            if (index === 0){
                 learnBtn = '';
             }
             return <div className="border pt-2 px-3 mb-3 rounded PartnerWith">

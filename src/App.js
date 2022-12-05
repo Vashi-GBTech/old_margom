@@ -3,15 +3,15 @@ import React from 'react';
 
 // import images
 // import BlueBgImage from './images/blueBg.png';
-import client1 from './images/CLIENT-1.png';
-import client2 from './images/client-2.png';
-import client3 from './images/client-3.png';
-import curveArrow from './images/curveArrow.png';
-import Ellipse from './images/roundEllipse.png';
-import user from './images/bguserwithGreen.png';
-import map from './images/map.png';
+// import client1 from './images/CLIENT-1.png';
+// import client2 from './images/client-2.png';
+// import client3 from './images/client-3.png';
+// import curveArrow from './images/curveArrow.png';
+// import Ellipse from './images/roundEllipse.png';
+// import user from './images/bguserwithGreen.png';
+// import map from './images/map.png';
 import slideOneImage from  './images/slideImage-1.jpg';
-import om from './images/blue-om.png'
+// import om from './images/blue-om.png'
 import dottedImage from './images/dottedImage.png'
 import w1 from './images/w-1.jpg'
 import w2 from './images/w-2.jpg'
@@ -23,7 +23,7 @@ import DR from './images/DR.jpg'
 import newLOGo from './images/newLogo.png'
 
 // import Video
-import video from './video/video.mp4';
+// import video from './video/video.mp4';
 
 // import components
 import SlideOne from "./component1.0/SlideOne";
@@ -48,7 +48,9 @@ import SkillsExpertise from "./component1.0/SkillsExpertise";
 // import  fontawsome icon
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faFacebook, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons'
-import { faStar, faScaleBalanced, faArrowUp, faCopyright, faBars, faChevronRight} from '@fortawesome/free-solid-svg-icons'
+import {
+    // faStar, faScaleBalanced, faArrowUp, faCopyright, faBars,
+    faChevronRight} from '@fortawesome/free-solid-svg-icons'
 
 // import boosttrap
 
