@@ -22,7 +22,7 @@ export default function SkillsExpertise(props) {
         }];
 
     const table = tableData.map((value, index) => {
-        return <tr>
+        return <tr key={index}>
             <th>{value.year}</th>
             <td className='ps-3'>
                 <h6 style={{color: '#597b6a'}}>{value.Heading}</h6>

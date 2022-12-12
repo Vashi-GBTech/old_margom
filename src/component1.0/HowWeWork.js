@@ -3,7 +3,7 @@ import React from "react";
 export default function HowWeWork(props) {
     const workImageArray = [props.w1, props.w2, props.w3];
     const images = workImageArray.map((value, index)=>{
-        return <div className="col-md-4">
+        return <div className="col-md-4" key={index}>
             <div className='rounded' style={{ boxShadow: '1px -1px 5px 0px lightgrey'}}>
                 <img src={value} className='w-100 rounded' alt=""/>
             </div>

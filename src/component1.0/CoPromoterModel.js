@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function CoPromoterModel(props) {
     return(
         <>
-            <div className="container-fluid rubicFont border" style={{height:'100vh', overflow: 'hidden'}}>
+            <div className="container-fluid rubicFont " id='CoPromoterModel' style={{height:'100vh', overflow: 'hidden', display:props.display}}>
                 <div className=" row">
 
                     <div className="col-md-6 text-start" style={{ padding:'2rem 3rem'}}>

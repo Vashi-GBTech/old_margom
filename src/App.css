@@ -1,5 +1,7 @@
 /*import boostrap  css */
 @import "~bootstrap/dist/css/bootstrap.min.css";
+/*@import "~animate.css/animate.css";*/
+
 /*import owl-carousel css */
 
 /*import font families */
@@ -256,4 +258,19 @@ html {
 tbody tr{
   border: unset !important;
   border-width: 0px !important;
+}
+
+#MainHeader{
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+button.owl-prev {
+  border: 1px solid gray!important;
+  width: 30px;
+}
+button.owl-next {
+  border: 1px solid gray!important;
+  width: 30px;
 }

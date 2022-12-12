@@ -3,8 +3,8 @@ import Table from 'react-bootstrap/Table';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 export default function GetInTouch(props) {
     const socialIcon = [props.fbicon, props.instaIcon, props.linkedInIcon];
-    const Icons = socialIcon.map((value)=>{
-        return  <div className="border border-warning centerFlex rounded-circle me-2 text-center " style={{width:'27px', height:'27px', cursor:"pointer"}}>
+    const Icons = socialIcon.map((value, index)=>{
+        return  <div key={index} className="border border-warning centerFlex rounded-circle me-2 text-center " style={{width:'27px', height:'27px', cursor:"pointer"}}>
             <FontAwesomeIcon icon={value} className='text-warning' />
         </div>
     })

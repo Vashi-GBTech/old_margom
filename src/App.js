@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 
+
 // import images
 // import BlueBgImage from './images/blueBg.png';
 // import client1 from './images/CLIENT-1.png';
@@ -26,6 +27,7 @@ import newLOGo from './images/newLogo.png'
 // import video from './video/video.mp4';
 
 // import components
+import Header from "./components/Header";
 import SlideOne from "./component1.0/SlideOne";
 import WhyWe from "./component1.0/WhyWe";
 import Emerging_India from "./component1.0/Emerging_India";
@@ -48,9 +50,7 @@ import SkillsExpertise from "./component1.0/SkillsExpertise";
 // import  fontawsome icon
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faFacebook, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons'
-import {
-    // faStar, faScaleBalanced, faArrowUp, faCopyright, faBars,
-    faChevronRight} from '@fortawesome/free-solid-svg-icons'
+import {faStar, faScaleBalanced, faArrowUp, faCopyright, faBars, faChevronRight} from '@fortawesome/free-solid-svg-icons'
 
 // import boosttrap
 
@@ -58,17 +58,18 @@ import {
 function App() {
   return (
     <div className="App">
+        <Header logoIcon={faScaleBalanced} mobileBar={faBars} />
         <SlideOne bgImage={slideOneImage}/>
-        <WhyWe om={newLOGo} />
+        <WhyWe om={newLOGo} DR={DR}/>
         <Emerging_India dotImage={dottedImage}/>
-        <PartnershipModels dotImage={dottedImage} />
+        <PartnershipModels dotImage={dottedImage} promotpr={Promoter} />
         <HowWeWork w1={w1} w2={w2} w3={w3}/>
         <CoFounderModel model={model} arrowIcon={faChevronRight}/>
         <GetInTouch bgImage={GetinTouch}  fbicon={faFacebook} instaIcon={faInstagram} linkedInIcon={faLinkedin}/>
         <CoPromoterModel promotpr={Promoter}/>
         <EcosystemOfNetwork DR={DR} om={newLOGo}/>
         <SkillsExpertise DR={DR}/>
-        {/*<Header logoIcon={faScaleBalanced} mobileBar={faBars} />*/}
+        {/**/}
         {/*<HomeBody user={user} client1={client1} client2={client2} client3={client3} arraow={curveArrow} ellipse={Ellipse} starIcon={faStar} />*/}
         {/*<SuccessRate video={video} ellipse={Ellipse} />*/}
         {/*<FirmAgency/>*/}
