@@ -64,12 +64,12 @@ function App() {
         <Emerging_India dotImage={dottedImage}/>
         <PartnershipModels dotImage={dottedImage} promotpr={Promoter} />
         <HowWeWork w1={w1} w2={w2} w3={w3}/>
-        <CoFounderModel model={model} arrowIcon={faChevronRight}/>
+        {/*<CoFounderModel model={model} arrowIcon={faChevronRight}/>*/}
         <GetInTouch bgImage={GetinTouch}  fbicon={faFacebook} instaIcon={faInstagram} linkedInIcon={faLinkedin}/>
-        <CoPromoterModel promotpr={Promoter}/>
+        {/*<CoPromoterModel promotpr={Promoter}/>*/}
         <EcosystemOfNetwork DR={DR} om={newLOGo}/>
-        <SkillsExpertise DR={DR}/>
-        {/**/}
+        {/*<SkillsExpertise DR={DR}/>*/}
+
         {/*<HomeBody user={user} client1={client1} client2={client2} client3={client3} arraow={curveArrow} ellipse={Ellipse} starIcon={faStar} />*/}
         {/*<SuccessRate video={video} ellipse={Ellipse} />*/}
         {/*<FirmAgency/>*/}

@@ -223,10 +223,20 @@ html {
   background-size: cover;
 }
 .GITbgImage{
-  background-image: url("./images/getInTouch.jpg");
-  background-repeat: no-repeat;
-  background-position: top;
+  position: relative;
+
+  /**/
+  /*background-repeat: no-repeat;*/
+  /*background-position: top;*/
+  /*background-size: cover;*/
+}
+.GITbgImage:before{
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
   background-size: cover;
+  background-image: url("./images/getInTouch.jpg");
+  filter: brightness(.5);
 }
 
 .ACCELERATED_GROWTH{

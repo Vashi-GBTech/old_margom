@@ -11,16 +11,16 @@ export default function HowWeWork(props) {
     })
 return(
     <>
-        <div className="container-fluid rubicFont EmergingBg">
+        <div className="container-fluid rubicFont EmergingBg " style={{paddingBottom:'4.5rem'}}>
             <div className="row px-3 text-start">
                 <div className="col-12  px-5 pt-5 pb-4 text-white">
                     <h1 className=''>How we Work</h1>
                     <p className='latoFont w-75'>After an initial screening of potential partner companies, we engage with them for 90 days to evaluate them thoroughly, using some of our AI-Driven assessment models. The post we onboard the companies in MARG'Om Studio in either of our four models</p>
                 </div>
                 {images}
-                <div className="">
-                    <h2 className='text-warning mt-2'>Co-Founder Model</h2>
-                </div>
+                {/*<div className="">*/}
+                {/*    <h2 className='text-warning mt-2'>Co-Founder Model</h2>*/}
+                {/*</div>*/}
             </div>
         </div>
     </>
