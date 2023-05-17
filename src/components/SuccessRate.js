@@ -20,7 +20,7 @@ return(
                         <div className="col-md-4 col-4">
                             <div className="d-flex justify-content-center">
                                 <img src={props.ellipse} className='position-absolute successRAteEllipse'  alt=""/>
-                                <h1 className='rubicFont position-relative'  style={{top:'34px'}}>82 <sup style={{right:'12px', fontWeight:"700"}} >%</sup> </h1>
+                                <h1 className='rubicFont position-relative'  style={{top:'34px'}}>100 <sup style={{right:'12px', fontWeight:"700"}} >%</sup> </h1>
                             </div>
                         </div>
                         <div className="col-md-8 col-8 px-0  text-start">

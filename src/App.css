@@ -284,3 +284,28 @@ button.owl-next {
   border: 1px solid gray!important;
   width: 30px;
 }
+
+
+
+
+
+
+.video-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.video-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  /* Additional styles you may want to customize */
+}
